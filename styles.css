@@ -1,0 +1,166 @@
+
+/* Formatação do cabeçalho*/
+header{
+      text-align: center;
+      background-color: rgb(141, 253, 253);
+      padding: 50px;
+      margin: 0;
+      border: none;
+}
+
+
+/*formatação fonte e margen do corpo*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body h1{
+    text-align: center;
+}
+
+
+.center {
+    position: relative;
+    width: 200px; 
+    height: 200px; 
+}
+/*Formatação da Logo do Site*/
+.Logo{
+    margin-left: 535px;
+    margin-top: 0px;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+ }
+
+
+ /*Configuração do menu de navegação do site*/
+ nav ul{ 
+    text-align: center;
+    list-style-type: none;
+    background-color: dimgrey;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+ }
+ nav li{
+    float: left;
+ }
+ nav a{
+    color: honeydew;
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    margin-left: 250px;
+ }
+
+ /*Parágrafo*/
+
+ p{
+    text-align: center;
+    color:rgb(2, 2, 2);
+ }
+
+ /*Imagens da página Idex*/
+
+ .banho{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .cano{
+    align-items: center;
+    margin-left: 30px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .Esgoto{
+    align-items: center;
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        border-radius: 20px;
+ }
+ .Tratamento{
+    align-items: center;
+    margin-left: 870px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .bueiro1{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+
+ /*Imagens da página Doenças*/
+ .carie{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .rato{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .leptospirose{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .febre{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .tifoide{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .dengue{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+ .chicu{
+    align-items: center;
+    margin-left: 520px;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+ }
+
+ /*Roda-pé*/
+ .container{
+    display: grid;
+
+ }
+ h3{
+    color: white;
+    text-align: center;
+    background-color: rgb(121, 129, 129);
+    padding: 30px;
+      margin: 0;
+      border: none;
+    /*border: solid rgb(121, 129, 129) 30px;*/
+}
