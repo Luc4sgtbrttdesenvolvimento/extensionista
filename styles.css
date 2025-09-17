@@ -1,6 +1,12 @@
+/*Zerando as margens e o padding do html*/
+
+*{
+   margin: 0;
+   padding: 0;
+}
 
 /* Formatação do cabeçalho*/
-header{
+header{ 
       text-align: center;
       background-color: rgb(141, 253, 253);
       padding: 50px;
@@ -14,140 +20,112 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
+
 body h1{
     text-align: center;
+    margin: 15px;
 }
-
 
 .center {
     position: relative;
     width: 200px; 
     height: 200px; 
+    margin: 0 auto;
 }
 /*Formatação da Logo do Site*/
 .Logo{
-    margin-left: 535px;
-    margin-top: 0px;
     width: 220px;
     height: 220px;
     border-radius: 20px;
+    margin: 0 auto;
  }
 
 
  /*Configuração do menu de navegação do site*/
  nav ul{ 
-    text-align: center;
     list-style-type: none;
-    background-color: dimgrey;
+    background-color: #034AA6;
     overflow: hidden;
-    margin: 0;
-    padding: 0;
  }
+
  nav li{
     float: left;
- }
- nav a{
-    color: honeydew;
-    text-decoration: none;
-    padding: 16px;
-    display: block;
-    margin-left: 250px;
+    width: 506px;
+   }
+   
+   nav li:hover{
+      background-color: #035AA6;
+   }
+   
+   nav a{
+      width: 100px;
+      color: honeydew;
+      text-decoration: none;
+      padding: 16px;
+      display: block;
+      margin: 0 auto;
+      box-sizing: border-box;
  }
 
  /*Parágrafo*/
 
  p{
+    width: 900px;
     text-align: center;
-    color:rgb(2, 2, 2);
+    font-size: 20px;
+    margin: 0 auto;
+    
  }
 
  /*Imagens da página Idex*/
 
  .banho{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     border-radius: 20px;
+    margin: 0 auto;
  }
- .cano{
-    align-items: center;
-    margin-left: 30px;
-    width: 400px;
-    height: 300px;
-    border-radius: 20px;
- }
+
  .Esgoto{
-    align-items: center;
-        margin-left: 30px;
-        width: 400px;
-        height: 300px;
-        border-radius: 20px;
- }
- .Tratamento{
-    align-items: center;
-    margin-left: 870px;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     border-radius: 20px;
+    margin: 0 auto;
  }
+
  .bueiro1{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     border-radius: 20px;
+    margin: 0 auto;
  }
 
  /*Imagens da página Doenças*/
  .carie{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     border-radius: 20px;
+    margin: 0 auto;
  }
  .rato{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     border-radius: 20px;
+    margin: 0 auto;
  }
- .leptospirose{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
- }
+ 
  .febre{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     border-radius: 20px;
+    margin: 0 auto;
  }
- .tifoide{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
- }
- .dengue{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
- }
+
  .chicu{
-    align-items: center;
-    margin-left: 520px;
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     border-radius: 20px;
+    margin: 0 auto;
  }
 
  /*Roda-pé*/
@@ -155,12 +133,37 @@ body h1{
     display: grid;
 
  }
+
+h2{
+   text-align: center;
+   margin: 10px;
+}
+
+#texto-denuncia{
+   width: 500px;
+   height: 200px;
+   border-radius: 2px;
+   margin: 0 auto;
+   text-align: start;
+}
+
+#e-mail{
+   width: 300px;
+   height: 20px;
+   margin: 5px 10px;
+   border-radius: 5px;
+}
+
  h3{
     color: white;
     text-align: center;
-    background-color: rgb(121, 129, 129);
+    background-color: #034AA6;
     padding: 30px;
-      margin: 0;
-      border: none;
-    /*border: solid rgb(121, 129, 129) 30px;*/
+    margin: 0;
+    border: none;
+}
+
+#botao{
+   width: 100px;
+   margin: 0 auto;
 }
